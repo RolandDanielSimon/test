@@ -1,0 +1,28 @@
+#player {
+    display: flex;
+    padding: 0.5em;
+    width: 94vw;
+    height: 10%;
+    bottom: 0px; 
+    right: 3.5vw;
+    left: 2.5vw;
+    background-color: green; 
+    position: fixed;
+}
+body {
+    padding-bottom: 10vh;
+}
+.slidecontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+#myRange {
+    width: 90%;;
+}
+
+#title {
+    position:absolute;
+}
+
