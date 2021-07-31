@@ -16,7 +16,7 @@ function togglePause() {
 }
 function changed() {
     var newtime = document.getElementById("myRange").value/100;
-    mySound.currentTime = "5.0";
+    mySound.currentTime = newtime;
     document.getElementById("a").innerHTML = mySound.currentTime.toString();
 }
 
